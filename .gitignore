@@ -1,5 +1,6 @@
 data/server/
 data/server/*
-modules/_pycache_/
-modules/_pycache_/*
-logs/*
+modules/__pycache__/
+modules_data/__pycache__/
+games/__pycache__/
+logs/
