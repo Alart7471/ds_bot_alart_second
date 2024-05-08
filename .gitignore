@@ -4,3 +4,4 @@ modules/__pycache__/
 modules_data/__pycache__/
 games/__pycache__/
 logs/
+*.pyc
