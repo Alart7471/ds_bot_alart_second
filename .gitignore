@@ -1,0 +1,6 @@
+data/server/
+data/server/*
+modules/_pycache_/
+modules/_pycache_/*
+logs/*
+!logs
