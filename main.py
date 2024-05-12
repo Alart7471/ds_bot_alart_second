@@ -5,7 +5,7 @@ from modules.bot_sys import start_sys
 from modules.setup_commands import setup_commands #импорт одной функции
 from modules.on_message import on_message
 from modules.on_member_join import on_member_join
-from modules_data.token import token
+from modules_data.token import bot_token
 
 bot = commands.Bot(command_prefix="!", help_command=None, intents=disnake.Intents.all())
 
@@ -22,4 +22,4 @@ on_message(bot, os)
 
 
 
-bot.run(token)
+bot.run(bot_token)
